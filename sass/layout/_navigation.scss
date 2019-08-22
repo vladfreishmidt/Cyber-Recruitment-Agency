@@ -1,0 +1,26 @@
+.header__navigation {
+    position: absolute;
+    top: 4rem;
+    right: 4rem;
+
+    li {
+        display: inline-block;
+        &:not(:last-child) {
+            margin-right: 2rem;    
+        }
+
+        a {
+            text-decoration: none;
+            text-transform: capitalize;
+            font-size: $default-font-size;
+            font-weight: 300;
+            color: $color-blue-light;
+            transition: color .4s;
+
+            &.active-page,
+            &:hover  {
+                color: $color-green-primary;
+            }
+        }
+    }
+}

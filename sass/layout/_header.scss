@@ -1,0 +1,27 @@
+.header {
+    height: 95vh;
+    padding-top: 10rem;
+    background: $color-blue-dark url(../img/home-top-bg.png);
+    background-size: 70%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    position: relative;
+
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+
+    &__logo {
+        height: 3.5rem;
+    }
+    
+    &__text-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+}

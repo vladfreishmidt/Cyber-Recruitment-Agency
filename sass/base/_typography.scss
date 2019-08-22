@@ -1,0 +1,32 @@
+// H1
+.heading-primary {
+    font-size: 6rem;
+    font-weight: 400;
+}
+
+// H2
+.heading-secondary {
+    font-size: 4rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+// H3
+.heading-tertiary {
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+// q
+.header__quote {
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+// p
+.paragraph {
+    font-size: $default-font-size;
+    line-height: 1.5;
+    font-weight: 300;
+}

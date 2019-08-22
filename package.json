@@ -1,0 +1,14 @@
+{
+  "name": "cyber-security-recruitment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "author": "Vlad Freishmidt",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
